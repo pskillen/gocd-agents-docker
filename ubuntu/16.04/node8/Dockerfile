@@ -1,6 +1,4 @@
-ARG AGENT_VER
-
-FROM gocd/gocd-agent-ubuntu-16.04:v$AGENT_VER
+FROM gocd/gocd-agent-ubuntu-16.04:v17.8.0
 
 RUN apt-get update \
  && apt-get upgrade -y \

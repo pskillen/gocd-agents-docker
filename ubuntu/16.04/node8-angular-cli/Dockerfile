@@ -1,4 +1,4 @@
-FROM gocd/gocd-agent-ubuntu-16.04:v17.8.0
+FROM gocd/gocd-agent-ubuntu-16.04:v17.11.0
 
 RUN apt-get update \
  && apt-get upgrade -y \
@@ -13,6 +13,6 @@ USER node
 RUN mkdir /home/node/.npm-global
 ENV PATH=/home/node/.npm-global/bin:$PATH
 ENV NPM_CONFIG_PREFIX=/home/node/.npm-global
-RUN npm install -g @angular/cli
+RUN npm install -g @angular/cli@1.4.4
 
 USER root

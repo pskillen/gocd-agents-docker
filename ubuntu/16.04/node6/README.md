@@ -5,4 +5,4 @@ This image is based upon the official [GoCD Ubuntu 16.04 agent](https://hub.dock
 image.
 
 Added features:
-* NodeJS 
+* NodeJS v6.x

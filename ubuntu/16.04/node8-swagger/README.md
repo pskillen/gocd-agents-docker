@@ -5,5 +5,5 @@ This image is based upon the official [GoCD Ubuntu 16.04 agent](https://hub.dock
 image.
 
 Added features:
-* NodeJS 
-* Swagger
+* NodeJS v8.x
+* Swagger v0.7.5

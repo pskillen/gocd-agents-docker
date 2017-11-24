@@ -13,6 +13,6 @@ USER node
 RUN mkdir /home/node/.npm-global
 ENV PATH=/home/node/.npm-global/bin:$PATH
 ENV NPM_CONFIG_PREFIX=/home/node/.npm-global
-RUN npm install -g @angular/cli@1.4.4
+RUN npm install -g @angular/cli@1.5.4
 
 USER root

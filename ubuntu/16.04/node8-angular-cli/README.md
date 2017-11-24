@@ -5,5 +5,5 @@ This image is based upon the official [GoCD Ubuntu 16.04 agent](https://hub.dock
 image.
 
 Added features:
-* NodeJS 
-* Angular CLI
+* NodeJS v8.x
+* Angular CLI v1.5.4

@@ -13,7 +13,7 @@ USER node
 RUN mkdir /home/node/.npm-global
 ENV PATH=/home/node/.npm-global/bin:$PATH
 ENV NPM_CONFIG_PREFIX=/home/node/.npm-global
-RUN npm i -g @angular/cli@1.5.4
+RUN npm i -g @angular/cli@1.5.4 \
  && npm i -g swagger@0.7.5
 
 USER root

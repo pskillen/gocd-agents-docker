@@ -16,6 +16,7 @@ ENV NPM_CONFIG_PREFIX=/home/node/.npm-global
 RUN npm i -g @angular/cli@1.5.4 \
  && npm i -g swagger@0.7.5 \
  && npm i -g mocha@5.0.1 \
+ && npm i -g mocha-junit-reporter@1.17.0 \
  && npm i -g sonarqube-scanner@2.0.2
 
 USER root

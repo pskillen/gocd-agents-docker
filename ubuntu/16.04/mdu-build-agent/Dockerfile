@@ -2,7 +2,7 @@ FROM gocd/gocd-agent-ubuntu-16.04:v18.1.0
 
 RUN apt-get update \
  && apt-get upgrade -y \
- && apt-get install build-essential libssl-dev -y \
+ && apt-get install build-essential libssl-dev openjdk-8-jdk maven -y \
  && curl -sL "https://deb.nodesource.com/setup_8.x" | bash - \
  && apt-get install nodejs -y \
  && groupadd --gid 1001 node \
@@ -14,6 +14,7 @@ RUN mkdir /home/node/.npm-global
 ENV PATH=/home/node/.npm-global/bin:$PATH
 ENV NPM_CONFIG_PREFIX=/home/node/.npm-global
 RUN npm i -g @angular/cli@1.5.4 \
- && npm i -g swagger@0.7.5
+ && npm i -g swagger@0.7.5 \
+ && npm i -g sonarqube-scanner@2.0.2
 
 USER root

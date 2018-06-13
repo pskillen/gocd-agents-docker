@@ -10,6 +10,7 @@ Added features:
   * python3-dev
   * python3-setuptools
   * python3-testresources
+  * python3-pip
   * unixodbc-dev
 * NodeJS v8.x
   * Angular CLI v1.5.4

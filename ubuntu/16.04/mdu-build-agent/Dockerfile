@@ -4,7 +4,7 @@ RUN apt-get update \
  && apt-get upgrade -y \
  && apt-get install build-essential libssl-dev openjdk-8-jdk maven -y \
  && apt-get install python3 python3-dev python3-setuptools python3-testresources python3-pip -y \
- && apt-get install phantomjs unixodbc-dev -y \
+ && apt-get install firefox unixodbc-dev -y \
  && curl -sL "https://deb.nodesource.com/setup_8.x" | bash - \
  && apt-get install nodejs -y \
  && groupadd --gid 1001 node \

@@ -1,4 +1,4 @@
-FROM gocd/gocd-agent-ubuntu-16.04:v18.3.0
+FROM gocd/gocd-agent-ubuntu-16.04:v18.6.0
 
 RUN apt-get update \
  && apt-get upgrade -y \

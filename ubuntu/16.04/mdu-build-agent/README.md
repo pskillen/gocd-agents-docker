@@ -19,3 +19,4 @@ Added features:
   * Mocha 5.0.1
 * OpenJDK JDK 8
   * Maven
+* PhantomJS

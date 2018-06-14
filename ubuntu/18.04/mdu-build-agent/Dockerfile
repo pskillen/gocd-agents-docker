@@ -1,4 +1,4 @@
-FROM nhsmdu/gocd-agent-ubuntu-18.04:v18.6.0
+FROM nhsmdu/docker-gocd-agent-ubuntu-18.04:v18.6.0
 
 RUN apt-get update \
  && apt-get upgrade -y \
